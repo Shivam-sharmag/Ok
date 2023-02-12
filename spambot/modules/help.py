@@ -1,5 +1,5 @@
 import asyncio
-from hackingaibot import gladiator, StartTime, OWNER_ID, OWNER_NAME, REPO_NAME, SUDO_USERS, DEV_USERS
+from .. import gladiator, StartTime, OWNER_ID, OWNER_NAME, REPO_NAME, SUDO_USERS, DEV_USERS
 from telethon import events, custom, Button
 from datetime import datetime
 import time
